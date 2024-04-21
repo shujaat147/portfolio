@@ -169,4 +169,12 @@ body {
         font-size: 18px;
         text-align: center;
     }
+
+    .resume .contact .text{
+        text-align:center;
+    }
+
+    .resume .prj{
+        text-align: center;
+    }
 }
