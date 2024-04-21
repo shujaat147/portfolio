@@ -1,0 +1,104 @@
+.resume {
+    background-color: #f1f1f3;
+}
+
+.resume .box1 {
+    background-color: #ededef;
+}
+
+.resume .box2 {
+    background: #ededef;
+}
+
+.resume .dp {
+    position: relative;
+    width: 70%;
+    height: 0;
+    padding: 70% 0 0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.resume .dp img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.resume .oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.resume .uppercase {
+    text-transform: uppercase;
+}
+
+.resume .name {
+    text-transform: uppercase;
+    color: #0185c6;
+}
+
+.resume .profession {
+    color: #89898b;
+    letter-spacing: 4px;
+    font-weight: 200;
+}
+
+.resume .heading {
+    font-weight: 400;
+    color: #424244;
+    text-transform: uppercase;
+}
+
+.resume .subheading{
+    font-weight: 600;
+    color: #03afe9;
+    text-transform: uppercase;
+}
+
+.resume .text {
+    font-size: 20px;
+    color: #636365;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.resume .hr-mid {
+    width: 50px;
+    height: 6px;
+    display: inline-block;
+    background-color: #32aed7;
+    position: relative;
+    top: -33px;
+}
+
+.resume .skills .progress{
+    --bs-progress-height: 8px;
+    --bs-progress-bg: #b8b9bb;
+    border-radius: 0px;
+}
+
+.resume .skillstext{
+    font-size: 20px;
+    color: #919294;
+    font-weight: 350;
+    text-transform: uppercase;
+}
+
+.resume .skills .progress-bar {
+    background-color: #414143;
+}
+
+.resume .skills .progressbars .row>* {
+    padding: 0px;
+}
+
+.resume .prj td{
+    font-size: 24px;
+    color: #646466;
+}
