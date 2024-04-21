@@ -1,3 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: fit-content;
+    overflow-x: hidden;
+}
+
 .resume {
     background-color: #f1f1f3;
 }
@@ -55,7 +66,7 @@
     text-transform: uppercase;
 }
 
-.resume .subheading{
+.resume .subheading {
     font-weight: 600;
     color: #03afe9;
     text-transform: uppercase;
@@ -77,13 +88,13 @@
     top: -33px;
 }
 
-.resume .skills .progress{
+.resume .skills .progress {
     --bs-progress-height: 8px;
     --bs-progress-bg: #b8b9bb;
     border-radius: 0px;
 }
 
-.resume .skillstext{
+.resume .skillstext {
     font-size: 20px;
     color: #919294;
     font-weight: 350;
@@ -98,7 +109,64 @@
     padding: 0px;
 }
 
-.resume .prj td{
+.resume .prj .text {
     font-size: 24px;
     color: #646466;
+}
+
+.resume .w-30 {
+    width: 30%;
+}
+
+.resume .w-70 {
+    width: 70%;
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+    .resume .name {
+        font-size: 30px;
+    }
+
+    .resume .profession {
+        font-size: 24px;
+    }
+
+    .resume .heading {
+        font-size: 26px;
+    }
+
+    .resume .subheading {
+        font-size: 24px;
+    }
+
+    .resume .text {
+        font-size: 16px;
+    }
+
+    .resume .skillstext {
+        font-size: 14px;
+    }
+
+    .resume .prj .text {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 991px) {
+    .resume .text {
+        font-size: 18px;
+    }
+
+    .resume .skills {
+        text-align: center;
+    }
+
+    .resume .techstack {
+        text-align: center;
+    }
+
+    .resume .prj .text {
+        font-size: 18px;
+        text-align: center;
+    }
 }
